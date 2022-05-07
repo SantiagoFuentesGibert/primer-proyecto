@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GastyTech | Contacto</title>
+    <link rel="short cut icon" href="../imagenes/gastytech.jpg">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+</head>
+<body class="body body__fondo body__tipografia">
+    <header class="header header__fondo">
+        <img src="../imagenes/logo.png" alt="GastyTech" class="header__logo">
+        <a href="#menu" class="header__menu">
+            <span class="jam jam-menu"></span>
+        </a>
+        <nav class="nav" id="menu">
+            <ul class="nav__paginas">
+                <li><a href="../index.html" class="nav__text">INICIO</a></li>
+                <li><a href="productos.html" class="nav__text">PRODUCTOS</a></li>
+                <li><a href="ofertas.html" class="nav__text">OFERTAS</a></li>
+                <li><a href="ayuda.html" class="nav__text">AYUDA</a></li>
+                <li><a href="contacto.html" class="nav__text">CONTACTO</a></li>
+                <li>
+                    <a href="#" class="cerrar__menu">
+                        <span class="jam jam-close-circle"></span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <form action="" >
+            <input class="header__buscador" type="text" id="Buscar" name="Buscar" placeholder="  Buscar marca o producto" >
+            <button class="jam jam-search posicion"></button>
+        </form>
+    </header>
+    <main>
+        <h1 class="contacto__titulo">Contacto</h1>
+        <section class="contacto">
+            <form action="" class="contacto__dimensiones">
+                <div class="contacto__orden">
+                    <label for="Nombre">Nombre completo</label>
+                    <input type="text" name="Nombre" id="Nombre" placeholder="Ingresar nombre completo" class="contacto__input">
+                </div>
+                <div class="contacto__orden">
+                    <label for="Correo">Email</label>
+                    <input type="email" name="Correo" id="Correo" placeholder="Ingresar correo" class="contacto__input">
+                </div>
+                <div class="contacto__orden">
+                    <label for="Consulta">Consulta</label>
+                    <textarea name="Consulta" id="Consulta" cols="30" rows="10" placeholder="Escribí tu consulta aquí" class="contacto__input"></textarea>
+                </div>    
+                <button class="contacto__button">Enviar</button>
+            </form>
+        </section>
+        <section class="marcas">
+            <img src="../imagenes/corsair-logo.png" alt="corsair logo" class="marcas__img">
+            <img src="../imagenes/hyperx-logo.png" alt="hyperx logo" class="marcas__img">
+            <img src="../imagenes/razer-logo.webp" alt="razer logo" class="marcas__img">
+            <img src="../imagenes/nvidia-logo.png" alt="nvidia logo" class="marcas__img">
+        </section>
+    </main>
+    <footer class="footer footer__fondo">
+        <img src="../imagenes/gastytech.jpg" alt="GastyTech" class="footer__logo">
+        <div class="footer__informacion">
+            <p class="footer__letras">TEL: (11) 1234-5678</p>
+            <p class="footer__letras">GastyTech@gmail.com</p>
+            <p class="footer__letras">Buenos Aires, Moreno, Calle Falsa 123</p>
+            <p class="footer__letras">Lun. a Vie. de 10 a 17h.</p>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.263666641761!2d-58.79057508449262!3d-34.648043580448096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9453e4e0aae5%3A0x563eb12be214aed6!2sMerlo%2C%20B1744%20Moreno%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1649295626429!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+    </footer>
+</body>
+</html>
