@@ -18,14 +18,14 @@
     font-family: Oswald;
 }
 
-.header {
+/*.header {
     display: grid;
-    grid-template-columns: 250px 700px 300px;
+    grid-template-columns: 250px 1000px;
     grid-template-rows: 58px;
     justify-content: space-around;
     align-items: center;
     justify-items: center;
-}
+}*/
 
 /*.header {
     display: flex;
@@ -70,6 +70,19 @@
     padding: 1rem;
 }
 
+.navbar {
+    background-color: #ff9800 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black !important;
+    font-size: 20px;
+}
+
+.p {
+    margin-bottom: 0;
+}
+
 .nav__paginas {
     list-style: none;
     display: flex;
@@ -80,6 +93,10 @@
     text-decoration: none;
     color: black;
     font-size: 20px;
+}
+
+.ul {
+    margin-bottom: 0;
 }
 
 @font-face {
@@ -206,10 +223,12 @@
     display: block;
     text-decoration: line-through;
     color: red;
+    font-size: 18px;
 }
 
 .ofertas__precio--green {
     color: green;
+    font-size: 24px;
 }
 
 .ayuda {
@@ -318,6 +337,7 @@
 
 .footer__letras {
     font-size: 20px;
+    color: black;
 }
 
 .mapa {
@@ -329,6 +349,7 @@
 @media screen and (max-width: 1200px) {
     .header {
         grid-template-columns: 250px 500px 280px;
+        grid-template-rows: 58px;
     }
 
     .header__logo {
@@ -405,7 +426,7 @@
 
 @media screen and (max-width: 1023px) {
     .header {
-        grid-template-columns: 130px 400px 19px;
+        /*grid-template-columns: 130px 400px 19px;*/
         grid-template-rows: 58px;
     }
 
@@ -418,7 +439,7 @@
         max-height: 30px;
     }
 
-    .header__menu {
+    /*.header__menu {
         display: block;
         font-size: 40px;
         text-decoration: none;
@@ -455,7 +476,7 @@
         text-decoration: none;
         color: black;
         font-size: 25px;
-    }
+    }*/
 
     .nav__text {
         font-size: 18px;
@@ -547,7 +568,7 @@
 
 @media screen and (max-width: 600px) {
     .header {
-        grid-template-columns: 90px 120px 40px;
+        /*grid-template-columns: 90px 120px 40px;*/
         grid-template-rows: 58px;
     }
 
@@ -561,7 +582,7 @@
         max-height: 30px;
     }
 
-    .header__menu {
+    /*.header__menu {
         display: block;
         font-size: 40px;
         text-decoration: none;
@@ -598,7 +619,7 @@
         text-decoration: none;
         color: black;
         font-size: 20px;
-    }
+    }*/
 
     .nav__text {
         font-size: 15px;
