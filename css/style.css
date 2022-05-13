@@ -15,7 +15,7 @@
 }
 
 .body__tipografia {
-    font-family: Oswald;
+    font-family: Oswald !important;
 }
 
 /*.header {
@@ -70,19 +70,6 @@
     padding: 1rem;
 }
 
-.navbar {
-    background-color: #ff9800 !important;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: black !important;
-    font-size: 20px;
-}
-
-.p {
-    margin-bottom: 0;
-}
-
 .nav__paginas {
     list-style: none;
     display: flex;
@@ -97,6 +84,39 @@
 
 .ul {
     margin-bottom: 0;
+}
+
+.navbar {
+    background-color: #ff9800 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black !important;
+    font-size: 20px;
+}
+
+.buscador {
+    width: 230px;
+}
+
+.btn {
+    border: solid #2b81a3 2px;
+    border-radius: 5px;
+    background-color: #2b81a3;
+}
+
+.btn-outline-success {
+    color: black;
+    font-size: 20px;
+    padding: 0 12px 0 12px;
+}
+
+.animaciones__botones {
+    transition: 0.5s;
+}
+
+.animaciones__botones:hover {
+    transform: scale(1.1);
 }
 
 @font-face {
@@ -151,11 +171,16 @@
 .categorias__style {
     list-style: none;
     font-size: 20px;
+    padding-left: 0;
 }
 
 .categorias__text {
     text-decoration: none;
     color: grey;
+}
+
+.categorias__opciones {
+    margin-bottom: 0;
 }
 
 .productos {
@@ -231,6 +256,13 @@
     font-size: 24px;
 }
 
+.animaciones {
+    transition: 0.5s;
+}
+
+.animaciones:hover {
+    transform: scale(1.1);
+}
 .ayuda {
     display: flex;
     flex-direction: column;
@@ -246,7 +278,7 @@
 }
 
 .ayuda__dimensiones {
-    width: 1500px;
+    width: 1150px;
     border: solid white;
     border-radius: 10px;
     background-color: white;
@@ -338,6 +370,10 @@
 .footer__letras {
     font-size: 20px;
     color: black;
+}
+
+.p {
+    margin-bottom: 0;
 }
 
 .mapa {
