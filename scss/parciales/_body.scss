@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    &__fondo {
+    background-color: ghostwhite;
+    }
+
+    &__tipografia {
+    font-family: Oswald !important;
+    }
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(../fuentes/Oswald-VariableFont_wght.ttf);
+}

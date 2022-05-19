@@ -1,0 +1,39 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &__informacion {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+    }
+
+    &__fondo {
+    background-color: #ff9800;
+    margin-top: auto;
+    }
+
+    &__logo {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 4px;
+    margin-left: 4rem;
+    }
+
+    &__letras {
+    font-size: 20px;
+    color: black;
+    }
+}
+
+.p {
+    margin-bottom: 0;
+}
+
+.mapa {
+    max-width: 330px;
+    max-height: 330px;
+    margin: 10px 10px 10px 10px;
+}

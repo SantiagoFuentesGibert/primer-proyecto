@@ -1,0 +1,141 @@
+@media screen and (max-width: 1023px) {
+    .header {
+        /*grid-template-columns: 130px 400px 19px;*/
+        grid-template-rows: 58px;
+
+        &__buscador {
+        width: 350px;
+        }   
+
+        &__logo {
+        max-width: 170px;
+        max-height: 30px;
+        }
+    }
+
+    /*.header__menu {
+        display: block;
+        font-size: 40px;
+        text-decoration: none;
+        color: #2b81a3;
+        order: 1;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    #menu {
+        display: block;
+        background-color: #2b81a3;
+        width: 40%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 100;
+        transition: left 1s;
+    }
+
+    #menu:target {
+        left: 0;
+    }
+
+    .nav__paginas {
+        flex-direction: column;
+    }
+
+    .cerrar__menu {
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+    }*/
+
+    .nav__text {
+        font-size: 18px;
+    }
+
+    .titulo {
+        font-size: 26px;
+    }
+
+    .ayuda__titulo {
+        font-size: 26px;
+    }
+
+    .contacto__titulo {
+        font-size: 26px;
+    }
+
+    .productos__img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .productos__destacados {
+        grid-template-columns: 150px 150px 150px 150px;
+        grid-template-rows: 240px;
+    }
+
+    .productos__precios--destacados {
+        font-size: 20px;
+    }
+
+    .productos__letras--destacados {
+        font-size: 16px;
+    }
+
+    .categoriasProductos {
+        grid-template-columns: 600px;
+        grid-template-rows: 600px 145px 145px 150px ;
+        justify-items: center;
+    }
+
+    .productos__fondo {
+        min-width: 400px;
+        max-height: 380px;
+    }
+
+    .ofertas {
+        column-gap: 5px;
+
+        &__precio {
+        font-size: 17px;
+        }
+
+        &__precio--green {
+        font-size: 20px;
+        }
+    }
+
+    .ayuda__dimensiones {
+        width: 570px;
+    }
+
+    .marcas__img {
+        max-height: 50px;
+        max-width: 150px;
+    }
+
+    .footer__informacion {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__logo {
+        max-width: 170px;
+        max-height: 170px;
+        margin-left: 2rem;
+    }
+
+    .footer__letras {
+        font-size: 15px;
+    }
+
+    .mapa {
+        max-width: 200px;
+        max-height: 200px;
+        margin: 10px 10px 10px 10px;
+    }
+}

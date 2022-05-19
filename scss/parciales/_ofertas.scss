@@ -1,0 +1,19 @@
+.ofertas {
+    display: flex;
+    justify-content: space-around;
+
+    &__precio {
+    display: block;
+    text-decoration: line-through;
+    color: red;
+    font-size: 18px;
+    }
+
+    &__precio--green {
+    color: green;
+    font-size: 24px;
+    }
+}
+
+
+

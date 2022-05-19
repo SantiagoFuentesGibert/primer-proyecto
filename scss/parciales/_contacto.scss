@@ -1,0 +1,54 @@
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6rem;
+
+    &__titulo {
+    font-size: 32px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    }
+
+    &__dimensiones {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 700px;
+    border: solid white;
+    border-radius: 15px;
+    background-color: white;
+    row-gap: 15px;
+    padding: 10px 0px 15px 20px;
+    }
+
+    &__input {
+    padding: 5px 0px 5px 0px;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+    width: 650px;
+    resize: none;
+    }
+
+    &__button {
+    background-color: #36a9e1;
+    border: solid #36a9e1;
+    padding: 10px 10px 10px 10px;
+    border-radius: 4px;
+    }
+
+    &__orden {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    }
+}
+
+.animaciones {
+    transition: 0.5s;
+}
+
+.animaciones:hover {
+    transform: scale(1.1);
+}

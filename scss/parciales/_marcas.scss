@@ -1,0 +1,11 @@
+.marcas {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+
+    &__img {
+    max-height: 100px;
+    max-width: 300px;
+    object-fit: cover;
+    }
+}

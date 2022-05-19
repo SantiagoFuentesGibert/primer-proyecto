@@ -1,0 +1,55 @@
+.productos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+    &__letrasOrdenadas {
+    display: flex;
+    flex-direction: row;
+    }
+
+    &__letras {
+    font-size: 20px;
+    }
+
+    &__letras--destacados {
+    font-size: 18px;
+        }
+
+    &__destacados {
+    display: grid;
+    grid-template-columns: 260px 260px 260px 260px;
+    grid-template-rows: 361px;
+    justify-content: space-between;
+    }
+
+    &__borde {
+    border-radius: 15px;
+    border: solid white 10px;
+    }
+
+    &__img {
+    max-width: 250px;
+    max-height: 250px;
+    }
+
+    &__fondo {
+    background-color: white;
+    min-width: 600px;
+    max-height: 380px;
+    }
+
+    &__fondo--destacadoOfertas {
+    background-color: white;
+    }
+
+    &__precios {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    }
+
+    &__precios--destacados {
+    font-size: 23px;
+    }
+}
