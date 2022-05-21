@@ -271,7 +271,8 @@
     margin-left: 4rem; }
   .footer__letras {
     font-size: 20px;
-    color: black; }
+    color: black;
+    font-weight: normal; }
 
 .p {
   margin-bottom: 0; }
