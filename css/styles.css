@@ -243,6 +243,12 @@
 .animaciones:hover {
   transform: scale(1.1); }
 
+.animaciones__botones {
+  transition: 0.5s; }
+
+.animaciones__botones:hover {
+  transform: scale(1.1); }
+
 .marcas {
   display: flex;
   justify-content: space-evenly;
