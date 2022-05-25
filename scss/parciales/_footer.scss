@@ -3,10 +3,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 3rem;
 
     &__informacion {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     column-gap: 5rem;
     }
 
@@ -16,10 +17,7 @@
     }
 
     &__logo {
-    max-width: 250px;
-    max-height: 250px;
     border-radius: 4px;
-    margin-left: 4rem;
     }
 
     &__letras {
@@ -27,6 +25,19 @@
     color: black;
     font-weight: normal;
     }
+}
+
+@mixin gastytech ($max-width, $max-height) {
+    max-width: $max-width;
+    max-width: $max-height;
+}
+
+.header__logo {
+    @include gastytech(50px, 200px)
+}
+
+.footer__logo {
+    @include gastytech(200px, 200px)
 }
 
 .p {

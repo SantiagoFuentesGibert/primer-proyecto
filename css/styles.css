@@ -31,8 +31,6 @@
     align-items: center;
 }*/
 .header__logo {
-  max-width: 200px;
-  max-height: 50px;
   border-radius: 4px;
   margin-right: 3rem; }
 
@@ -127,7 +125,7 @@
   height: 530px;
   width: 270px; }
   .categorias__titulo {
-    font-size: 25px; }
+    font-size: 30px; }
   .categorias__style {
     list-style: none;
     font-size: 20px;
@@ -136,7 +134,8 @@
     text-decoration: none;
     color: grey; }
   .categorias__opciones {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-size: 24px; }
 
 .productos {
   display: flex;
@@ -176,14 +175,15 @@
 .ofertas {
   display: flex;
   justify-content: space-around; }
-  .ofertas__precio {
-    display: block;
-    text-decoration: line-through;
-    color: red;
-    font-size: 18px; }
-  .ofertas__precio--green {
-    color: green;
-    font-size: 24px; }
+
+.ofertas__precio, .ofertas--precioNuevo {
+  display: block;
+  color: red;
+  font-size: 18px; }
+
+.ofertas--precioNuevo {
+  color: green;
+  font-size: 24px; }
 
 .ayuda {
   display: flex;
@@ -247,7 +247,9 @@
   transition: 0.5s; }
 
 .animaciones__botones:hover {
-  transform: scale(1.1); }
+  transform: scale(1.1);
+  background-color: #2b81a3;
+  border-color: #2b81a3; }
 
 .marcas {
   display: flex;
@@ -262,23 +264,29 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  padding: 3rem; }
   .footer__informacion {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     column-gap: 5rem; }
   .footer__fondo {
     background-color: #ff9800;
     margin-top: auto; }
   .footer__logo {
-    max-width: 250px;
-    max-height: 250px;
-    border-radius: 4px;
-    margin-left: 4rem; }
+    border-radius: 4px; }
   .footer__letras {
     font-size: 20px;
     color: black;
     font-weight: normal; }
+
+.header__logo {
+  max-width: 50px;
+  max-width: 200px; }
+
+.footer__logo {
+  max-width: 200px;
+  max-width: 200px; }
 
 .p {
   margin-bottom: 0; }
@@ -314,7 +322,7 @@
   .productos__fondo {
     min-width: 400px;
     max-height: 380px; }
-  .ofertas__precio {
+  .ofertas__precio, .ofertas--precioNuevo {
     font-size: 17px; }
   .ofertas__precio--green {
     font-size: 20px; }
@@ -408,7 +416,7 @@
     max-height: 380px; }
   .ofertas {
     column-gap: 5px; }
-    .ofertas__precio {
+    .ofertas__precio, .ofertas--precioNuevo {
       font-size: 17px; }
     .ofertas__precio--green {
       font-size: 20px; }
@@ -522,7 +530,7 @@
     grid-template-rows: 232px 232px;
     row-gap: 5px;
     column-gap: 5px; }
-    .ofertas__precio {
+    .ofertas__precio, .ofertas--precioNuevo {
       font-size: 17px; }
     .ofertas__precio--green {
       font-size: 20px; }

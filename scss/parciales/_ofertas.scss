@@ -1,19 +1,16 @@
 .ofertas {
     display: flex;
     justify-content: space-around;
+}
 
-    &__precio {
+.ofertas__precio {
     display: block;
-    text-decoration: line-through;
     color: red;
     font-size: 18px;
     }
 
-    &__precio--green {
+.ofertas--precioNuevo {
+    @extend .ofertas__precio;
     color: green;
     font-size: 24px;
-    }
 }
-
-
-
