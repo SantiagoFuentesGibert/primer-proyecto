@@ -269,7 +269,8 @@
   .footer__informacion {
     display: flex;
     flex-direction: column;
-    column-gap: 5rem; }
+    row-gap: 1rem;
+    text-align: center; }
   .footer__fondo {
     background-color: #ff9800;
     margin-top: auto; }
@@ -553,16 +554,18 @@
     width: 250px; }
   .marcas {
     display: none; }
+  .footer {
+    flex-direction: column;
+    row-gap: 2rem; }
   .footer__informacion {
     display: flex;
     flex-direction: column; }
   .footer__logo {
-    max-width: 100px;
-    max-height: 100px;
-    margin-left: 0.5rem; }
+    max-width: 160px;
+    max-height: 160px;
+    margin-left: -1px; }
   .footer__letras {
-    font-size: 10px; }
+    font-size: 12px; }
   .mapa {
-    max-width: 110px;
-    max-height: 110px;
-    margin: 10px 10px 10px 10px; } }
+    max-width: 270px;
+    max-height: 350px; } }

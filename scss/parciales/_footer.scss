@@ -8,7 +8,8 @@
     &__informacion {
     display: flex;
     flex-direction: column;
-    column-gap: 5rem;
+    row-gap: 1rem;
+    text-align: center;
     }
 
     &__fondo {

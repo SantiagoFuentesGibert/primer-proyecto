@@ -1,0 +1,4 @@
+1. Lo primero que hice fue agregar los metas (description y keywords) en cada uno de los HTML. 
+2. Quite todo el contenido de relleno tanto los lorem como las XXX de los precios de los productos.
+3. Cambie algunas etiquetas p por etiquetas h2 y h3 para ya que era titulos de menor grado.
+4. Además mejore el responsibe tanto para tablet como mobile.
