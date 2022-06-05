@@ -430,7 +430,7 @@
     font-size: 16px; }
   .categoriasProductos {
     grid-template-columns: 600px;
-    grid-template-rows: 600px 145px 145px 150px;
+    grid-template-rows: 600px 145px 145px 150px 145px 145px 145px 145px 145px;
     justify-items: center; }
   .productos__fondo {
     min-width: 400px;
@@ -545,7 +545,7 @@
     font-size: 14px; }
   .categoriasProductos {
     grid-template-columns: 310px;
-    grid-template-rows: 550px 130px 130px 130px;
+    grid-template-rows: 550px 130px 130px 130px 130px 130px 130px 130px 130px;
     justify-items: center; }
   .categorias__opciones {
     font-size: 18px; }
