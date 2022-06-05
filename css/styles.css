@@ -16,6 +16,24 @@
   font-family: Oswald;
   src: url(../fuentes/Oswald-VariableFont_wght.ttf); }
 
+.whatsapp {
+  display: flex;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  text-decoration: none;
+  font-size: 50px;
+  z-index: 100;
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+  background-color: green;
+  width: 70px;
+  height: 70px;
+  justify-content: center;
+  align-items: center; }
+
+.jam {
+  color: white; }
+
 /*.header {
     display: grid;
     grid-template-columns: 250px 1000px;
@@ -102,7 +120,7 @@
 .categoriasProductos {
   display: grid;
   grid-template-columns: 250px 600px;
-  grid-template-rows: 270px 270px 270px;
+  grid-template-rows: 270px 270px 270px 270px 270px 270px 270px 270px;
   justify-content: center;
   margin-top: 6rem;
   margin-bottom: 6rem;
@@ -179,11 +197,13 @@
 .ofertas__precio, .ofertas--precioNuevo {
   display: block;
   color: red;
-  font-size: 18px; }
+  font-size: 18px;
+  text-decoration: line-through; }
 
 .ofertas--precioNuevo {
   color: green;
-  font-size: 24px; }
+  font-size: 24px;
+  text-decoration: none; }
 
 .ayuda {
   display: flex;
@@ -265,7 +285,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem; }
+  padding: 4.5rem; }
   .footer__informacion {
     display: flex;
     flex-direction: column;
@@ -490,6 +510,21 @@
     }*/
   .nav__text {
     font-size: 15px; }
+  .whatsapp {
+    display: flex;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    z-index: 1;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    background-color: green;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+    align-items: center; }
   .titulo {
     font-size: 20px; }
   .ayuda__titulo {
