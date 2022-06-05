@@ -34,20 +34,6 @@
 .jam {
   color: white; }
 
-/*.header {
-    display: grid;
-    grid-template-columns: 250px 1000px;
-    grid-template-rows: 58px;
-    justify-content: space-around;
-    align-items: center;
-    justify-items: center;
-}*/
-/*.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}*/
 .header__logo {
   border-radius: 4px;
   margin-right: 3rem; }
@@ -126,14 +112,6 @@
   margin-bottom: 6rem;
   grid-column-gap: 5rem; }
 
-/*.categoriasProductos {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-    column-gap: 50px;
-}*/
 .categorias {
   display: flex;
   flex-direction: column;
@@ -365,51 +343,12 @@
 
 @media screen and (max-width: 1023px) {
   .header {
-    /*grid-template-columns: 130px 400px 19px;*/
     grid-template-rows: 58px; }
     .header__buscador {
       width: 350px; }
     .header__logo {
       max-width: 170px;
       max-height: 30px; }
-  /*.header__menu {
-        display: block;
-        font-size: 40px;
-        text-decoration: none;
-        color: #2b81a3;
-        order: 1;
-    }
-
-    .nav{
-        display: none;
-    }
-
-    #menu {
-        display: block;
-        background-color: #2b81a3;
-        width: 40%;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        left: -100%;
-        z-index: 100;
-        transition: left 1s;
-    }
-
-    #menu:target {
-        left: 0;
-    }
-
-    .nav__paginas {
-        flex-direction: column;
-    }
-
-    .cerrar__menu {
-        display: block;
-        text-decoration: none;
-        color: black;
-        font-size: 25px;
-    }*/
   .nav__text {
     font-size: 18px; }
   .titulo {
@@ -441,6 +380,10 @@
       font-size: 17px; }
     .ofertas__precio--green {
       font-size: 20px; }
+  .contacto__dimensiones {
+    width: 590px; }
+  .contacto__input {
+    width: 550px; }
   .ayuda__dimensiones {
     width: 570px; }
   .marcas__img {
@@ -462,7 +405,6 @@
 
 @media screen and (max-width: 600px) {
   .header {
-    /*grid-template-columns: 90px 120px 40px;*/
     grid-template-rows: 58px; }
     .header__buscador {
       width: 90px; }
@@ -470,44 +412,6 @@
       margin-left: -5px;
       max-width: 90px;
       max-height: 30px; }
-  /*.header__menu {
-        display: block;
-        font-size: 40px;
-        text-decoration: none;
-        color: #2b81a3;
-        order: 1;
-    }
-
-    .nav{
-        display: none;
-    }
-
-    #menu {
-        display: block;
-        background-color: #2b81a3;
-        width: 40%;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        left: -100%;
-        z-index: 100;
-        transition: left 1s;
-    }
-
-    #menu:target {
-        left: 0;
-    }
-
-    .nav__paginas {
-        flex-direction: column;
-    }
-
-    .cerrar__menu {
-        display: block;
-        text-decoration: none;
-        color: black;
-        font-size: 20px;
-    }*/
   .nav__text {
     font-size: 15px; }
   .whatsapp {

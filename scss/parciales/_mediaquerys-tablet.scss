@@ -1,6 +1,5 @@
 @media screen and (max-width: 1023px) {
     .header {
-        /*grid-template-columns: 130px 400px 19px;*/
         grid-template-rows: 58px;
 
         &__buscador {
@@ -12,45 +11,6 @@
         max-height: 30px;
         }
     }
-
-    /*.header__menu {
-        display: block;
-        font-size: 40px;
-        text-decoration: none;
-        color: #2b81a3;
-        order: 1;
-    }
-
-    .nav{
-        display: none;
-    }
-
-    #menu {
-        display: block;
-        background-color: #2b81a3;
-        width: 40%;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        left: -100%;
-        z-index: 100;
-        transition: left 1s;
-    }
-
-    #menu:target {
-        left: 0;
-    }
-
-    .nav__paginas {
-        flex-direction: column;
-    }
-
-    .cerrar__menu {
-        display: block;
-        text-decoration: none;
-        color: black;
-        font-size: 25px;
-    }*/
 
     .nav__text {
         font-size: 18px;
@@ -107,6 +67,14 @@
         &__precio--green {
         font-size: 20px;
         }
+    }
+
+    .contacto__dimensiones {
+        width: 590px;
+    }
+
+    .contacto__input {
+        width: 550px;
     }
 
     .ayuda__dimensiones {
